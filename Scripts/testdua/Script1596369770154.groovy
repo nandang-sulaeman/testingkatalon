@@ -14,4 +14,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://docs.katalon.com/katalon-studio/docs/statements.html#in-script-view-3')
+
+WebUI.setText(findTestObject('Object Repository/Page_Statements  Katalon Docs/input_Search by_ais-search-box--input searc_cdc868'), 
+    'test')
+
+WebUI.click(findTestObject('Object Repository/Page_Statements  Katalon Docs/a_Test Case Variables'))
+
+a=findTestObject('Object Repository/Page_Statements  Katalon Docs/a_Test Case Variables');
+if (a==trus) {
+    WebUI.closeBrowser()
+}
 
