@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Firefox 85.0,,,2021-02-25 21:17:30,2021-02-25 21:18:03,32.767s,ERROR
+,,,,,,,
+Test Cases/testdua,Firefox 85.0,,,2021-02-25 21:17:31,2021-02-25 21:18:02,31.559s,ERROR
+"openBrowser("""")",Firefox 85.0,,,2021-02-25 21:17:32,2021-02-25 21:17:48,16.554s,PASSED
+"navigateToUrl(""https://docs.katalon.com/katalon-studio/docs/statements.html#in-script-view-3"")",Firefox 85.0,,,2021-02-25 21:17:48,2021-02-25 21:17:56,8.242s,PASSED
+"setText(findTestObject(""Object Repository/Page_Statements  Katalon Docs/input_Search by_ais-search-box--input searc_cdc868""), ""test"")",Firefox 85.0,,,2021-02-25 21:17:56,2021-02-25 21:17:57,0.595s,PASSED
+"click(findTestObject(""Object Repository/Page_Statements  Katalon Docs/a_Test Case Variables""))",Firefox 85.0,,,2021-02-25 21:17:57,2021-02-25 21:18:02,5.093s,PASSED
+"a = findTestObject(""Object Repository/Page_Statements  Katalon Docs/a_Test Case Variables"")",Firefox 85.0,,,2021-02-25 21:18:02,2021-02-25 21:18:02,0.138s,PASSED
+if (a == trus),Firefox 85.0,,,2021-02-25 21:18:02,2021-02-25 21:18:02,0.002s,PASSED
+,,,,,,,
+Test Cases/testsatu,Firefox 85.0,,,2021-02-25 21:18:02,2021-02-25 21:18:03,0.568s,PASSED
+return null,Firefox 85.0,,,2021-02-25 21:18:03,2021-02-25 21:18:03,0.001s,PASSED
