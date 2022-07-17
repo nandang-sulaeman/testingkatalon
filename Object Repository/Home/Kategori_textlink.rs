@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Kategori_textlink</name>
+   <tag></tag>
+   <elementGuidId>e28fc371-0abc-489b-87ed-e911461e116e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;vm__white-header-dweb&quot;]/section/header/div[3]/div/div/div[1]/div/div[3]/div/div[1]/span/div/div[1]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

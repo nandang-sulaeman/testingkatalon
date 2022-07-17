@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>kartu_perdana</name>
+   <tag></tag>
+   <elementGuidId>d353bc9c-0d6b-49a4-aa59-0e96623463e6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;vm__white-header-dweb&quot;]/section/header/div[3]/div/div/div[1]/div/div[3]/div/div[1]/span/div/div[2]/div/div/div/section/div/div/div[2]/div[2]/div/div/div[1]/div[2]/div[4]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

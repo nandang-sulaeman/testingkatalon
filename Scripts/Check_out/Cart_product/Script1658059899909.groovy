@@ -9,9 +9,17 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('https://www.bukalapak.com/p/handphone/kartu-perdana/2amip44-jual-nomor-cantik-nomer-cantik-kartu-perdana-cantik-simpati-edisi-0107?from=list-product&pos=0')
+
+WebUI.scrollToElement(findTestObject('Product_detail/cart_button'), 0)
+
+WebUI.click(findTestObject('Product_detail/cart_button'))
 

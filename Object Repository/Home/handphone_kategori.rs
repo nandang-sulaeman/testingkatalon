@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>handphone_kategori</name>
+   <tag></tag>
+   <elementGuidId>6a4dcea9-ce3e-43ba-9ee4-7ecca784db23</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;vm__white-header-dweb&quot;]/section/header/div[3]/div/div/div[1]/div/div[3]/div/div[1]/span/div/div[2]/div/div/div/section/div/div/div[1]/div[2]/div/ul/li[6]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

@@ -17,3 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('https://www.bukalapak.com/')
+
+WebUI.delay(8)
+
+WebUI.click(findTestObject('Home/Login_Button'))
+
+WebUI.click(findTestObject('Home/Email_filed'))
+
+WebUI.setText(findTestObject('Home/Email_field2'), 'cek')
+
+WebUI.click(findTestObject('Home/Lanjut'))
+
+WebUI.click(findTestObject('Home/ResetPassword_textlink'))
+
+WebUI.setText(findTestObject('Home/nohp'), '087655')
+
+WebUI.click(findTestObject('Home/lanjut_button3'), FailureHandling.STOP_ON_FAILURE)
+
